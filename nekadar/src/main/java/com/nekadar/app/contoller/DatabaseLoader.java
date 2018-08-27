@@ -24,18 +24,11 @@ public class DatabaseLoader implements CommandLineRunner {
 	}
 
 	private void userTableRefill() {
-//		userRepository.save(new User("Suleyman Bedirhanoglu", "her yer kazikci dolu"));
-//		userRepository.save(new User("Tugrul Ocak", "Bu bir test mesajidir"));
-//		userRepository.save(new User("Ugur Yazici", "aciklamalar.. aciklamalar.. aciklamalar"));
-//		userRepository.save(new User("Sihab Demir", "tt net cok kazikci bir firmadir"));
-		
+		//
 	}
 
 	private void employeeTableRefill() {
-//		employeeRepository.save(new Employee("Sihab", "5000"));
-//		employeeRepository.save(new Employee("Ugur", "6000"));
-//		employeeRepository.save(new Employee("Suleyman", "7000"));
-//		employeeRepository.save(new Employee("Tugrul", "8000"));
+		//
 	}
 
 }

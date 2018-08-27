@@ -47,12 +47,4 @@ public class CommonMappingController {
 	public @ResponseBody Optional<User> findOne(@RequestParam Long id) {
 		return userService.findOneRecord(id);
 	}
-
-//	@SuppressWarnings("deprecation")
-//	@RequestMapping(value = "/Employee", method = RequestMethod.GET)
-//	public String getAllEmployees(Model model, @RequestParam(defaultValue="0")int page) {
-//		model.addAttribute("data", employeeService.getAllEmployeesfromDB(new PageRequest(page, 4)));
-//		return "index";
-//		
-//	}
 }
